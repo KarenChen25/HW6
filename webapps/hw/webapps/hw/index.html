@@ -1,0 +1,83 @@
+
+<html>
+<head>
+      <style>
+          html {
+              background: -webkit-linear-gradient(top, #88c7f0, #7d7cc4) no-repeat;
+              background-size: cover;
+              height: 140%;
+          }
+
+          .div1 {
+              background-color: rgba(72, 72, 72, 0.4);
+              padding-left: 0px;
+              padding-right: 0px;
+              padding-top: 25px;
+              padding-bottom: 30px;
+              width: 400px;
+              float: left;
+              left: 50%;
+              position: absolute;
+              margin-top: 20px;
+              margin-left: -200px;
+              -moz-border-radius: 7px;
+              -webkit-border-radius: 7px;
+              font-family: 微軟正黑體;
+              text-align: center;
+          }
+
+          input {
+              border: 2px solid #fed264;
+              padding: 7px;
+              font-size: 15px;
+          }
+
+          textarea {
+              border: 3px solid #fed264;
+              font-size: 15px;
+          }
+
+          .feedback-input:focus {
+              background: #fff;
+              box-shadow: 0;
+              border: 2px solid #fed264;
+              color: #fed264;
+              outline: none;
+              padding: 10px 10px 10px 10px;
+          }
+
+          .focused {
+              color: #30aed6;
+              border: #30aed6 solid 3px;
+          }
+
+          table,
+          td {
+              padding: 5px;
+              border: 2px solid #fed264;
+              width: value;
+              word-break: break-all;
+              border-collapse: collapse;
+              font-color: #ccc;
+          }
+      </style>
+      <meta charset=" utf-8">
+
+
+  </head>
+
+  <body>
+      <div class="div1">
+    <form action="index.jsp" method="POST">
+              <H2>RESUME</H2> 帳號:
+              <input type="input" name="na" class="feedback-input" placeholder="帳號" /><br><br>密碼:
+              <input type="input" name="pa" class="feedback-input" placeholder="密碼" /><br><br>
+              <input type="submit" value="登入" id="show"  onclick="show();this.disabled=true" style="width:120px;height:40px;border:2px #fed264 solid; background-color:#697399" />
+  </form>
+  <input type="submit" value="註冊" id="show"  onclick="location.href='insert.jsp'" style="width:120px;height:40px;border:2px #fed264 solid; background-color:#697399" />
+
+  </div>
+
+
+  </body>
+  </html>
