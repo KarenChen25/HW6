@@ -84,8 +84,8 @@ if(request.getParameter("name") != null){
 <body>
     <div class="div1">
         <form action="insert.jsp" method="POST">
-            <H2>RESUME</H2>姓名:
-            <input type="input" name="name" class="feedback-input" placeholder="姓名" /><br><br>密碼:
+            <H2>RESUME</H2>帳號:
+            <input type="input" name="name" class="feedback-input" placeholder="帳號" /><br><br>密碼:
             <input type="input" name="password" class="feedback-input" placeholder="密碼" /><br><br> 生日:
             <input type="date" name="birthday" class="feedback-input" /><br><br>MEMO：
             <br><br>
